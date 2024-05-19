@@ -7,8 +7,11 @@ This is a personal project that designs a Controlled System designed for food st
 2.	Operating mode:
 
 Automatically, the system uses a sensor, to measure the temperature and humidity levels. 
+
 When the temperature rises over 25*C, the alarm rings for a specified duration, a red LED turns on, the system turns the AC ON for a set period of time and displays the temperature and timer on the LCD, after wich it measures the temperature again. If the temperature didn’t drop below 25*C, the AC will stay ON for another set period of time. If the temperature drops below 25*C, the LCD displays that the AC is OFF, the system turns off the red LED and turns on a green LED to display that the temperature is optimal.
+
 When the humidity exceedes 70% (while the temperature is under 25*C -  For this project, it was determined that the temperature has a higher degree of importance than humidity), the alarm rings for a specified duration, a red LED turns on, the system opens a window for a set period of time and displays the humidity and timer on the LCD, after wich it measures the humidity again. If the percentage didn’t drop below 70, the window will stay open for another set period of time. If the humidity drops below 70%, the LCD displays that the window is closing, the system turns off the red LED and turns on a green LED to display that the temperature is optimal.
+
 If there is a problem with the temperature and humidity sensor, the systems turns on a blue LED to indicate that there is a problem with the DHT 11 sensor, the LCD displays „Sensor Error” and the alarm will ring for 24 hours.
 
 3.	The system is made of:
