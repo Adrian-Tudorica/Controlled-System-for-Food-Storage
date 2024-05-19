@@ -28,3 +28,12 @@ If there is a problem with the temperature and humidity sensor, the systems turn
 4.	Electrical circuit wiring diagram
  
 ![image](https://github.com/Adrian-Tudorica/Controlled-System-for-Food-Storage/assets/164034888/c295d9e9-0de3-4d25-9b9a-9ef2d025b6b2)
+
+System running Optimally (Temperature = 22.70*C & Humidity = 57%)
+![WhatsApp Image 2024-05-19 at 18 48 52_4b1eb871](https://github.com/Adrian-Tudorica/Controlled-System-for-Food-Storage/assets/164034888/091f196a-7678-4ca2-ac7d-eba8c3a59e8f)
+
+System running while AC is ON (Temperature > 25*C)
+![WhatsApp Image 2024-05-19 at 18 48 52_7dff77a1](https://github.com/Adrian-Tudorica/Controlled-System-for-Food-Storage/assets/164034888/643a9ed7-930e-448f-a551-807540f07bb2)
+
+System running while the window is open (Humidity > 70% && Temperature < 25*C)
+![WhatsApp Image 2024-05-19 at 18 48 52_eb827dd9](https://github.com/Adrian-Tudorica/Controlled-System-for-Food-Storage/assets/164034888/064cfa21-4fbe-4683-83d3-882cc37ebc1b)
